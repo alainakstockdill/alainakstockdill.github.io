@@ -43,10 +43,23 @@
     <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
 </div>
 
+<script>
+    function toggleMenu() {
+      var x = document.getElementById("mobileMenu");
+      if (x.classList.contains("w3-show")) {
+        x.classList.remove("w3-show");
+        x.classList.add("w3-hide");
+      } else {
+        x.classList.remove("w3-hide");
+        x.classList.add("w3-show");
+      }
+    }
+</script>
 
 
 <!-- Header -->
-<header class = "w3-display-container" style = "max-width: 1500px; height: 300px; margin-top: 250px;" id = "home">
+<header class = "w3-display-container" style = "max-width: 1500px; height: 20%; margin-top: 20%;" id = "home">
+<!--header class = "w3-display-container" style = "max-width: 1500px; height: 300px; margin-top: 250px;" id = "home"-->
     <div class="w3-display-middle w3-center">
         <img src = "web_images/face2.jpg" alt="" class ="w3-circle", width="250">
         <h1 class= "w3-jumbo w3-text-white"> Alaina Stockdill  </h1 -->
