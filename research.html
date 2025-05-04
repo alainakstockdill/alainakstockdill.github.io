@@ -9,6 +9,24 @@
   body  {
   background-image: url("web_images/bigsurtreesfull.jpg");
 }
+  /* Only apply to large screens and up */
+  @media only screen and (min-width: 992px) {
+    .equal-row {
+      display: flex;
+    }
+
+    .equal-row > .w3-col {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .equal-row .w3-panel,
+    .equal-row img {
+      flex: 1;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 </style>
 </head>
 <body>
@@ -78,7 +96,7 @@
           <div class="w3-row-padding w3-border-top" style="text-align: left; margin-bottom: 15px">
 
               <div class="w3-col s12 l6">
-                  <div class="w3-panel" style= "background-color: rgba(6, 64, 43, 0.5); height: 400px;">
+                  <div class="w3-panel" style= "background-color: rgba(6, 64, 43, 0.5);">
                     <h1 class=" w3-text-white"> Ecological Networks </h1>
                       <p class = "w3-text-white" style = "font-size: 14pt;"> Ecological networks are useful tools for representing various interactions between
                         species within a community. The network structure is made of nodes (i.e. species) and edges (i.e. intercations) and can be paired with
@@ -105,7 +123,7 @@
 
             <div class="w3-col s12 l6">
               
-                <div class="w3-panel" style= "background-color: rgba(6, 64, 43, 0.5); height: 460px;">
+                <div class="w3-panel" style= "background-color: rgba(6, 64, 43, 0.5);">
 
                   <h1 class=" w3-text-white"> Rocky Intertidal Food Webs </h1>
                     <p class = "w3-text-white" style = "font-size: 14pt;"> My research focuses on empirical food web models of rocky intertidal species. These ecosystems,
@@ -121,7 +139,7 @@
         <div class="w3-row-padding w3-border-top w3-border-bottom" style="text-align: left; margin-bottom: 15px">
 
           <div class="w3-col s12 l6">
-              <div class="w3-panel" style= "background-color: rgba(6, 64, 43, 0.5); height: 400px;">
+              <div class="w3-panel" style= "background-color: rgba(6, 64, 43, 0.5);">
                 <h1 class=" w3-text-white"> Modeling Climate Change </h1>
                   <p class = "w3-text-white" style = "font-size: 14pt;">  It is critical that we understand how climate change is alters the dynamics of complex communities.
                     Using the dynamical food-web framework, I seek to understand the effects of warming and environmental variability in intertidal ecosystems. I use thermal 
