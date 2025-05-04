@@ -31,32 +31,17 @@
   </div>
 </div>
 
-<!-- Hamburger menu (shows only on small screens) -->
-<div class="w3-text-white w3-display-topleft w3-hide-large w3-hide-medium">
-  <button class="w3-button w3-text-white" onclick="toggleMenu()">☰ Menu</button>
+<div class="w3-dropdown-hover w3-left w3-hide-large w3-hide-medium">
+  <button class="w3-button w3-text-white">☰ Menu</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4" style="top: 100%; margin-top: 4px;">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="aboutme.html" class="w3-bar-item w3-button">About</a>
+      <a href="research.html" class="w3-bar-item w3-button">Research</a>
+      <a href="cv.html" class="w3-bar-item w3-button">CV</a>
+      <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+  </div>
 </div>
 
-<!-- Hidden menu items (toggle on click) -->
-<div id="mobileMenu" class="w3-text-white w3-hide-large w3-hide-medium">
-  <a href="index.html" class="w3-bar-item w3-button">Home</a>
-  <a href="aboutme.html" class="w3-bar-item w3-button">About</a>
-  <a href="research.html" class="w3-bar-item w3-button">Research</a>
-  <a href="cv.html" class="w3-bar-item w3-button">CV</a>
-  <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
-</div>
-
-<script>
-  function toggleMenu() {
-    var x = document.getElementById("mobileMenu");
-    if (x.classList.contains("w3-show")) {
-      x.classList.remove("w3-show");
-      x.classList.add("w3-hide");
-    } else {
-      x.classList.remove("w3-hide");
-      x.classList.add("w3-show");
-    }
-  }
-</script>
 
 
 <!-- Header -->
