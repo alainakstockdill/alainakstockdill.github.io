@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>alainakstockdill</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<style>
+  body  {
+  background-image: url("web_images/bigsurtreesfull.jpg");
+}
+</style>
 </head>
 <body>
 
@@ -15,81 +20,113 @@
       <a href="index.html" class="w3-bar-item w3-button"><b>Alaina Stockdill</a>
       <!-- Float links to the right. Hide them on small screens -->
       <div class="w3-right w3-hide-small">
-          <a href="index.html" class="w3-bar-item w3-button">About Me</a>
-          <a href="cv.html" class="w3-bar-item w3-button">CV</a>
+          <a href="index.html" class="w3-bar-item w3-button">Home</a>
           <a href="research.html" class="w3-bar-item w3-button">Research</a>
           <a href="teaching.html" class="w3-bar-item w3-button">Teaching</a>
+          <a href="cv.html" class="w3-bar-item w3-button">CV</a>
+          <a href="aboutme.html" class="w3-bar-item w3-button">About Me</a>
           <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
       </div>
   </div>
 </div>
 
 
+
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+<!--header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
     <img class="w3-image" src="web_images/sunset.jpeg" alt="" width="1500" height="800">
     <div class="w3-display-middle w3-margin-top w3-center">
         <h1 class="w3-xxlarge w3-text-white"><span class="w3-hide-small w3-text-light-grey">Modeling Community Dynamics in the Rocky Intertidal</span></h1>
     </div>
+</header-->
+
+<!-- Header -->
+<header class = "w3-display-container" style = "max-width: 1500px; height: 300px; margin-top: 0px;" id = "home">
+  <div class="w3-display-middle w3-center">
+      <!--img src = "web_images/face2.jpg" alt="" class ="w3-circle", width="250"-->
+      <h1 class= "w3-jumbo w3-text-white"> Research </h1 -->
+      <!--h1 class="w3-jumbo w3-text-white" style="text-shadow:1px 1px 0 #444"> Alaina Stockdill</h1-->
+      <!--hr class="w3-border-white" style="margin:auto;width:100%"-->
+      <!--h1 class="w3-xl w3-text-white" style="text-shadow:1px 1px 0 #06402B"> Applied Mathematics & Theoretical Ecology </h1-->
+  </div>
 </header>
 
-<!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
 
-  <!-- Project Section -->
-  <div class="w3-container w3-padding-32">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Research</h3>
+<div class="w3-content w3-padding" style="max-width:1300px">
+  <div class = w3-center>
+
+          <div class="w3-row-padding w3-border-top" style="text-align: left; margin-bottom: 15px">
+
+              <div class="w3-col s6">
+                  <div class="w3-panel" style= "background-color: rgba(6, 64, 43, 0.5); height: 400px;">
+                    <h1 class=" w3-text-white"> Ecological Networks </h1>
+                      <p class = "w3-text-white" style = "font-size: 14pt;"> Ecological networks are useful tools for representing various interactions between
+                        species within a community. The network structure is made of nodes (i.e. species) and edges (i.e. intercations) and can be paired with
+                        dynamical equations that describe how species abundances change over time. While there are many types of ecological networks (e.g. mutalisims, mutliplex networks),
+                        I primarily study food web models that describe all consumer-resource interactions within a community.
+                      </p>
+                  </div>
+              </div>
+
+              <div class="w3-col s6", style = "margin-top: 15px;">
+                  <img src = "web_images/pointreyesfillm.jpg" alt="" class = "w3-image">
+                  
+              </div>
+
+          </div>
+
+    
+        <div class="w3-row-padding w3-border-top" style="text-align: left; margin-bottom: 15px;">
+
+          <div class="w3-col s6", style = "margin-top: 15px;">
+            <img src = "web_images/starfish.jpeg" alt="" class = "w3-image">
+            
+          </div>
+
+            <div class="w3-col s6">
+              
+                <div class="w3-panel" style= "background-color: rgba(6, 64, 43, 0.5); height: 460px;">
+
+                  <h1 class=" w3-text-white"> Rocky Intertidal Food Webs </h1>
+                    <p class = "w3-text-white" style = "font-size: 14pt;"> My research focuses on empirical food web models of rocky intertidal species. These ecosystems,
+                      particularly those located in eastern boundary upwelling zones, are highly productive and nutrient rich. These allometrically parameterized models, comprising
+                      of several species including mussels snails, and limpets, describe how biomass changes over time. I primarily study the Chilean intertidal food web but hope to 
+                      compare my work with other intertidal systems in the California, South Africa, and Portugal upwelling regions. 
+                      
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-border-top w3-border-bottom" style="text-align: left; margin-bottom: 15px">
+
+          <div class="w3-col s6">
+              <div class="w3-panel" style= "background-color: rgba(6, 64, 43, 0.5); height: 400px;">
+                <h1 class=" w3-text-white"> Modeling Climate Change </h1>
+                  <p class = "w3-text-white" style = "font-size: 14pt;">  It is critical that we understand how climate change is alters the dynamics of complex communities.
+                    Using the dynamical food-web framework, I seek to understand the effects of warming and environmental variability in intertidal ecosystems. I use thermal 
+                    peroformance curves to simulate the effect that temperature has on species' growth and consumption needs in order to predict the effect of climate change 
+                    on communities.
+                  </p>
+              </div>
+          </div>
+
+          <div class="w3-col s6", style = "margin-top: 15px; margin-bottom: 15px;">
+              <img src = "web_images/sfbeach.jpg" alt="" class = "w3-image">
+              
+          </div>
+      </div>
+      
   </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l4  w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Food Webs</div>
-        <img src="web_images/foodweb.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l4 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Thermal Performance</div>
-        <img src="web_images/foodweb.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l4 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Tidal Dynamics</div>
-        <img src="web_images/foodweb.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col l4  w3-margin-bottom">
-      <div class="w3-display-container">
-        Using trophic network models to understand the change in population abundacnes over time.
-        
-      </div>
-    </div>
-    <div class="w3-col l4 w3-margin-bottom">
-      <div class="w3-display-container">
-        Incorporating the role of temperature into trophic network models via theorhetical thermal performance curves.
-      </div>
-    </div>
-    <div class="w3-col l4 w3-margin-bottom">
-      <div class="w3-display-container">
-        Understand the role of tidal fluctuations in altering intertidal community dynamics and the role that temperature plays in these systems.
-      </div>
-    </div>
-  </div>
-
-  
-
-<!-- End page content -->
+  <!--end page content-->
 </div>
 
 
+
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16" style="max-width:1500px;">
-</footer >
+<!--footer class="w3-center w3-white w3-padding-16" style="max-width:1500px;">
+</footer -->
 
 </body>
 </html>
